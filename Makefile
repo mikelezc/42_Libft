@@ -6,7 +6,7 @@
 #    By: mlezcano <mlezcano@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/16 17:15:04 by mlezcano          #+#    #+#              #
-#    Updated: 2023/09/22 10:17:16 by mlezcano         ###   ########.fr        #
+#    Updated: 2023/09/24 19:48:29 by mlezcano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,7 +35,13 @@ SRCS = ft_bzero.c\
 	   ft_strnstr.c\
 	   ft_atoi.c\
 	   ft_calloc.c\
-	   ft_strdup.c
+	   ft_strdup.c\
+	   ft_substr.c\
+	   ft_strjoin.c\
+	   ft_putchar_fd.c\
+	   ft_putstr_fd.c\
+	   ft_putendl_fd.c\
+	   ft_putnbr_fd.c
 OBJS = $(SRCS:.c=.o)
 
 all: $(NAME)
