@@ -6,7 +6,7 @@
 /*   By: mlezcano <mlezcano@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/24 12:53:47 by mlezcano          #+#    #+#             */
-/*   Updated: 2023/09/24 20:34:33 by mlezcano         ###   ########.fr       */
+/*   Updated: 2023/09/24 20:40:23 by mlezcano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,28 +15,28 @@
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*res;
-	size_t	i;
-	size_t	j;
+	size_t	count1;
+	size_t	count2;
 
 	if (s1 == NULL || s2 == NULL)
 		return (NULL);
 	res = malloc(ft_strlen(s1) + ft_strlen(s2) + 1 * sizeof(char));
 	if (!res)
 		return (NULL);
-	i = 0;
-	while (s1[i])
+	count1 = 0;
+	while (s1[count1])
 	{
-		res[i] = s1[i];
-		i++;
+		res[count1] = s1[count1];
+		count1++;
 	}
-	j = 0;
-	while (s2[j])
+	count2 = 0;
+	while (s2[count2])
 	{
-		res[i] = s2[j];
-		i++;
-		j++;
+		res[count1] = s2[count2];
+		count1++;
+		count2++;
 	}
-	res[i] = '\0';
+	res[count1] = '\0';
 	return (res);
 }
 
