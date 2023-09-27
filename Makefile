@@ -6,7 +6,7 @@
 #    By: mlezcano <mlezcano@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/16 17:15:04 by mlezcano          #+#    #+#              #
-#    Updated: 2023/09/26 16:32:17 by mlezcano         ###   ########.fr        #
+#    Updated: 2023/09/27 13:47:19 by mlezcano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,6 +38,7 @@ SRCS = ft_bzero.c\
 	   ft_strdup.c\
 	   ft_substr.c\
 	   ft_strjoin.c\
+	   ft_strtrim.c\
 	   ft_itoa.c\
 	   ft_strmapi.c\
 	   ft_striteri.c\
