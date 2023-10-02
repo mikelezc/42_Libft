@@ -6,7 +6,7 @@
 #    By: mlezcano <mlezcano@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/16 17:15:04 by mlezcano          #+#    #+#              #
-#    Updated: 2023/09/27 13:47:19 by mlezcano         ###   ########.fr        #
+#    Updated: 2023/10/02 12:16:41 by mlezcano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,6 +39,7 @@ SRCS = ft_bzero.c\
 	   ft_substr.c\
 	   ft_strjoin.c\
 	   ft_strtrim.c\
+	   ft_split.c\
 	   ft_itoa.c\
 	   ft_strmapi.c\
 	   ft_striteri.c\
@@ -51,7 +52,11 @@ SRCS_B = ft_lstnew_bonus.c\
 		ft_lstadd_front_bonus.c\
 		ft_lstsize_bonus.c\
 		ft_lstlast_bonus.c\
-		ft_lstadd_back_bonus.c
+		ft_lstadd_back_bonus.c\
+		ft_lstdelone_bonus.c\
+		ft_lstclear_bonus.c\
+		ft_lstiter_bonus.c\
+		ft_lstmap_bonus.c
 OBJS = $(SRCS:.c=.o)
 OBJS_B = $(SRCS_B:.c=.o)
 
