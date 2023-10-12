@@ -6,12 +6,12 @@
 #    By: mlezcano <mlezcano@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/16 17:15:04 by mlezcano          #+#    #+#              #
-#    Updated: 2023/10/02 12:16:41 by mlezcano         ###   ########.fr        #
+#    Updated: 2023/10/12 08:46:31 by mlezcano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
-GCC = gcc
+CC = gcc
 CFLAGS	= -Wall -Werror -Wextra
 SRCS = ft_bzero.c\
 	   ft_isalnum.c\
@@ -69,10 +69,10 @@ bonus: $(OBJS_B)
 	ar rcs $(NAME) $(OBJS_B)
 
 clean:
-	rm -f *.o
+	$(RM) -rf *.o
 
 fclean: clean
-	rm -f $(NAME)
+	$(RM) -f $(NAME)
 
 
 re: fclean all
