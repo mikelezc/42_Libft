@@ -1,14 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_lstsize_bonus.c                                 :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: mlezcano <mlezcano@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/26 15:54:34 by mlezcano          #+#    #+#             */
-/*   Updated: 2023/09/26 16:08:31 by mlezcano         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
 
 #include"libft.h"
 
@@ -24,13 +13,3 @@ int	ft_lstsize(t_list *lst)
 	}
 	return (i);
 }
-
-/*
-
-Cuenta el número de nodos de una lista.
-
-lst: el principio de la lista.
-
-retorna:
-La longitud de la lista.
-*/

@@ -1,14 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strdup.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: mlezcano <mlezcano@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/22 10:10:25 by mlezcano          #+#    #+#             */
-/*   Updated: 2023/09/22 10:27:38 by mlezcano         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
 
 #include"libft.h"
 
@@ -24,9 +13,3 @@ char	*ft_strdup(const char *s1)
 	ft_memcpy(s2, s1, len);
 	return (s2);
 }
-
-/*
-Esta función reserva suficiente memoria 
-para hacer la copia de un string s1
-luego hace la copia , y retorna 
-un puntero a esa copia s2 de s1*/

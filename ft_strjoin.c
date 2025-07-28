@@ -1,14 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strjoin.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: mlezcano <mlezcano@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/24 12:53:47 by mlezcano          #+#    #+#             */
-/*   Updated: 2023/09/24 20:40:23 by mlezcano         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
 
 #include "libft.h"
 
@@ -39,16 +28,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	res[count1] = '\0';
 	return (res);
 }
-
-/*
-Reserva (con malloc(3)) y devuelve una nueva 
-string, formada por la concatenación de ’s1’ y ’s2’.
-
--Parámetros:
-s1: La primera string.
-s2: La string a añadir a ’s1’.
-
--Retorna:
-La nueva string.
-NULL si falla la reserva de memoria.
-*/
